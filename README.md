@@ -1,3 +1,29 @@
+todo: Example AeroGear Application Using JQueryMobile, AngularJS, localStorage, AppCache & JAX-RS Technologies
+==============================================================================================
+Author:Sébastien Blanc
+What is it?
+-----------
+This is a spin-off of the Aerogear poh5 example (The original readme is included in this readme).
+Based on the existing example, a new application has been added : a simple Todo application
+Features : 
+-----------
+* Based on jQueryMobile
+* Using AngularJS & the AngularJS-jqm-Adapter (thanks to the excellent https://github.com/tigbro/jquery-mobile-angular-adapter )
+* Using appCache (AKA offline caching) to make the static resources available even if we are offline
+* Using localStorage to be able to show content even if we are offline
+
+What are the changes to look at comparing to the orignal sample ?
+-----------
+
+* Well, you will notice that we have now a web.xml. It's jsut used to served our appCache file with the correct MIME type
+* Speaking about the appCache file, you will find it at the root of the web-app. It's a manifest listing all the static resources and also a "NETWORK" rule for the REST services, be sure to change the host if you are planning to test it on real devices.
+* LocalStorage is used each time that we retrieve a list of todos from the servers, they will be stored on the browser
+
+TODOs
+-----------
+* Adding data synchronisation between offline and online data
+
+
 poh5: Example AeroGear Application Using Multiple HTML5, Mobile & JAX-RS Technologies
 ==============================================================================================
 Author: Jay Balunas
