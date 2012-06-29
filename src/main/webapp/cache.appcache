@@ -1,0 +1,16 @@
+CACHE MANIFEST
+      
+# This is a comment
+CACHE:
+/poh5/js/libs/jquery.mobile-1.1.0.min.js
+/poh5/css/jquery.mobile-1.1.0.min.css
+/poh5/js/libs/jquery-1.7.1.min.js
+/poh5/js/libs/angular.js
+/poh5/js/libs/jquery-mobile-angular-adapter.js
+/poh5/js/libs/todo.js
+/poh5/css/images/icons-18-white.png
+/poh5/css/images/ajax-loader.png
+
+NETWORK:
+http://localhost:8080/poh5/rest/todos 
+
