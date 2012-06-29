@@ -15,9 +15,13 @@ Features :
 What are the changes to look at comparing to the orignal sample ?
 -----------
 
-* Well, you will notice that we have now a web.xml. It's jsut used to served our appCache file with the correct MIME type
+* Well, you will notice that we have now a web.xml. It's ust used to served our appCache file with the correct MIME type
 * Speaking about the appCache file, you will find it at the root of the web-app. It's a manifest listing all the static resources and also a "NETWORK" rule for the REST services, be sure to change the host if you are planning to test it on real devices.
-* LocalStorage is used each time that we retrieve a list of todos from the servers, they will be stored on the browser
+* LocalStorage is used each time that we retrieve a list of todos from the server, they will be stored on the browser
+
+How to access the application ?
+-----------
+The original application is still present and will be launched by default. To access the todo app browse to /todo.html 
 
 TODOs
 -----------
